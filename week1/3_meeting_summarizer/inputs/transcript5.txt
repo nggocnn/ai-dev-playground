@@ -1,0 +1,11 @@
+[11:05 - Customer Feedback Review]
+CSM: Customers are reporting slow search results, especially during peak hours between 7 PM and 9 PM.
+Search Team: Analysis shows that certain unindexed queries are taking up to 5 seconds to complete.
+DBA: Suggest adding indexes on the "category" and "price_range" fields, plus partitioning the products table.
+Mobile: Will implement skeleton loaders so users see immediate feedback while results are loading.
+PM: Quyết định: Triển khai thử nghiệm caching kết quả tìm kiếm trong 2 tuần, song song với việc thêm index.
+Analytics: Will track average search time, conversion rate, and user retention before and after caching.
+Ops: Will monitor database CPU and memory load during the test to ensure stability.
+Search Team: Also considering query result pre-computation for top 100 search terms.
+QA: Need test cases for both caching and indexing scenarios; will coordinate with BE and DB teams.
+Marketing: If performance improves significantly, plan a campaign to promote "faster search" as a feature.

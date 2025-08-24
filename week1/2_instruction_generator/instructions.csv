@@ -1,0 +1,426 @@
+Task Description Generated,Work Instruction
+"Install the battery module in the rear compartment, connect to the high-voltage harness, and verify torque on fasteners.","# WORK INSTRUCTIONS: Install Battery Module in Rear Compartment
+
+## **1. Safety**
+- **Personal Protective Equipment (PPE):**
+  - Safety glasses
+  - Insulated gloves (rated for high voltage)
+  - Steel-toed boots
+  - Hard hat (if overhead hazards are present)
+  
+- **Lockout/Tagout:**
+  - Ensure the vehicle is powered down.
+  - Lockout/tagout the high-voltage system before starting work.
+
+- **ESD/Voltage Hazards:**
+  - Use ESD wrist strap when handling battery module.
+  - Verify voltage levels are safe before touching any components.
+
+- **Chemical Hazards:**
+  - Be aware of potential battery acid leaks. Have neutralizing agent available.
+
+- **Lifting Hazards:**
+  - Use proper lifting techniques or mechanical aids for the battery module (weight: <insert weight> kg).
+
+## **2. Tools & Materials**
+- **Tools:**
+  - Calibrated torque wrench (10-60 N·m)
+  - Socket set (appropriate size for fasteners)
+  - Insulated screwdriver
+  - ESD wrist strap
+  - Multimeter (for voltage verification)
+
+- **Materials:**
+  - Battery module (part number: <insert part number>)
+  - High-voltage harness (part number: <insert part number>)
+  - Fasteners (per spec <insert fastener spec>)
+  
+- **Software:**
+  - Vehicle assembly software (version <insert version>)
+
+## **3. Preparation**
+- **Pre-checks:**
+  - Verify that the assembly line is clear of obstructions.
+  - Ensure all tools are calibrated and in good condition.
+  
+- **Part and Revision Verification:**
+  - Confirm battery module and high-voltage harness match the specified part numbers and revisions.
+
+## **4. Procedure**
+1. **Position Battery Module:**
+   - Lift the battery module into the rear compartment using proper lifting techniques.
+   - Align the module with the mounting points.
+
+2. **Secure Battery Module:**
+   - Install fasteners to secure the battery module.
+   - Hand-tighten all fasteners first.
+
+3. **Torque Fasteners:**
+   - Using the calibrated torque wrench, tighten each fastener to <torque spec> N·m.
+   - Follow the specified torque sequence (if applicable).
+
+4. **Connect High-Voltage Harness:**
+   - Locate the high-voltage harness connector.
+   - Align and securely connect the harness to the battery module.
+
+5. **Verify Connections:**
+   - Ensure all connections are seated properly and locked in place.
+
+6. **Check Voltage:**
+   - Use a multimeter to verify that the voltage at the battery terminals is within the acceptable range (per spec <insert voltage spec>).
+
+## **5. Acceptance Criteria & Verification**
+- **Torque Verification:**
+  - All fasteners must be torqued to <torque spec> N·m.
+  
+- **Connection Verification:**
+  - High-voltage harness must be securely connected with no visible gaps.
+  
+- **Voltage Check:**
+  - Voltage must be within the specified range (<insert voltage spec>).
+
+- **Logging:**
+  - Record torque values and voltage readings in the MES system.
+
+## **6. Nonconformance**
+- If any check fails:
+  - Stop work immediately.
+  - Notify the supervisor.
+  - Document the issue in the Nonconformance Log.
+  - Follow corrective action procedures as outlined in the quality manual.
+
+## **7. Documentation**
+- Record the following in the MES system:
+  - Torque values for each fastener.
+  - Voltage readings from the multimeter.
+  - Any nonconformance issues encountered.
+  
+- Ensure all entries are logged in the Traveler for traceability."
+Calibrate the ADAS (Advanced Driver Assistance Systems) radar sensors on the front bumper using factory alignment targets.,"# WORK INSTRUCTIONS: Calibration of ADAS Radar Sensors on Front Bumper
+
+## **1. Safety**
+- **Personal Protective Equipment (PPE):**
+  - Safety glasses
+  - Steel-toed shoes
+  - Gloves (cut-resistant)
+- **Lockout/Tagout:**
+  - Ensure all machinery is locked out and tagged out before starting the calibration process.
+- **ESD/Voltage Hazards:**
+  - Use ESD wrist strap when handling radar sensors.
+- **Chemical Hazards:**
+  - Be aware of any cleaning agents used in the area; refer to Safety Data Sheets (SDS) for proper handling.
+- **Lifting Hazards:**
+  - Use proper lifting techniques or mechanical aids when handling the front bumper.
+
+## **2. Tools & Materials**
+- **Tools:**
+  - Calibrated torque wrench (10-60 N·m)
+  - Alignment fixture for ADAS calibration
+  - Digital multimeter (for voltage checks)
+  - Laptop with calibration software
+- **Materials:**
+  - Factory alignment targets (specific to vehicle model)
+  - Calibration report forms
+
+## **3. Preparation**
+- **Pre-checks:**
+  - Verify that the vehicle is on a level surface.
+  - Ensure the vehicle battery is fully charged.
+- **Line Conditions:**
+  - Confirm that the calibration area is clear of obstructions.
+- **Part and Revision Verification:**
+  - Check that the radar sensors are the correct part number and revision as per the Bill of Materials (BOM).
+
+## **4. Procedure**
+1. **Position the Vehicle:**
+   - Park the vehicle in the calibration area with the front bumper facing the alignment targets.
+   
+2. **Set Up Alignment Targets:**
+   - Place the factory alignment targets at the specified distances from the front bumper as per the calibration manual.
+
+3. **Connect Calibration Equipment:**
+   - Connect the laptop to the vehicle’s OBD-II port using the appropriate interface cable.
+
+4. **Power On the System:**
+   - Turn on the vehicle ignition without starting the engine. Ensure all systems are powered.
+
+5. **Launch Calibration Software:**
+   - Open the calibration software on the laptop and select the appropriate vehicle model.
+
+6. **Initiate Calibration:**
+   - Follow on-screen prompts to start the calibration process. Ensure the software recognizes the radar sensors.
+
+7. **Adjust Sensor Position:**
+   - If necessary, loosen the mounting bolts of the radar sensors using the torque wrench. Adjust the sensors to align with the targets.
+   - **Torque Specification:** Re-torque the mounting bolts to <torque spec> N·m after adjustment.
+
+8. **Run Calibration Test:**
+   - Execute the calibration test as prompted by the software. Monitor for any error messages.
+
+9. **Verify Calibration Results:**
+   - Check the calibration results displayed on the software. Ensure all parameters are within acceptable limits.
+
+10. **Document Calibration:**
+    - Print the calibration report from the software and sign it. Attach it to the vehicle’s traveler.
+
+## **5. Acceptance Criteria & Verification**
+- **Measurable Checks:**
+  - Calibration must pass all diagnostic checks with no error codes.
+  - Sensor alignment must be within <spec> mm of the target positions.
+- **Test Pass/Fail Thresholds:**
+  - Calibration is considered successful if all parameters are within specified limits.
+- **Logging/Traceability:**
+  - Record the calibration results in the Manufacturing Execution System (MES) and on the calibration report.
+
+## **6. Nonconformance**
+- If calibration fails:
+  - Recheck the alignment of the targets and the sensor positions.
+  - If issues persist, escalate to the Quality Assurance (QA) team for further investigation.
+
+## **7. Documentation**
+- Record the following:
+  - Calibration results in the MES.
+  - Calibration report signed and dated.
+  - Any nonconformance issues logged in the Nonconformance Report (NCR) system.
+
+Ensure all documentation is completed before leaving the work area."
+Apply anti-corrosion sealant to all exposed welds on the door panels before painting.,"# WORK INSTRUCTIONS: Apply Anti-Corrosion Sealant to Door Panels
+
+**1. Safety**  
+- **Personal Protective Equipment (PPE):**  
+  - Safety goggles  
+  - Nitrile gloves  
+  - Respirator (if required by MSDS)  
+  - Steel-toed boots  
+- **Lockout/Tagout:**  
+  - Ensure all machinery is locked out and tagged out before starting the task.  
+- **ESD/Voltage Hazards:**  
+  - Ensure ESD wrist straps are worn if working near sensitive electronic components.  
+- **Chemical Hazards:**  
+  - Refer to the Material Safety Data Sheet (MSDS) for the anti-corrosion sealant.  
+- **Lifting Hazards:**  
+  - Use proper lifting techniques when handling door panels. Seek assistance for heavy panels.
+
+**2. Tools & Materials**  
+- **Tools:**  
+  - Calibrated torque wrench (10-60 N·m)  
+  - Paintbrush or sealant applicator  
+  - Clean cloths  
+  - ESD wrist strap  
+- **Materials:**  
+  - Anti-corrosion sealant (per spec XXXX)  
+  - Cleaning solvent (per spec XXXX)  
+- **Fixtures:**  
+  - Workbench with clamps (if necessary)  
+- **Software:**  
+  - None required for this task.
+
+**3. Preparation**  
+- **Pre-checks:**  
+  - Verify that the work area is clean and free of debris.  
+  - Ensure proper ventilation in the work area.  
+- **Part and Revision Verification:**  
+  - Confirm that the door panels are the correct part number and revision as per the production schedule.
+
+**4. Procedure**  
+1. **Clean the Surface:**  
+   - Use a clean cloth and cleaning solvent to wipe down all exposed welds on the door panels. Ensure the surface is free of dust, grease, and contaminants.  
+2. **Inspect for Damage:**  
+   - Check the welds for any visible defects or damage. Report any issues to the supervisor.  
+3. **Prepare Sealant:**  
+   - Open the anti-corrosion sealant container and stir thoroughly as per manufacturer instructions.  
+4. **Apply Sealant:**  
+   - Using a paintbrush or sealant applicator, apply a uniform layer of anti-corrosion sealant to all exposed welds. Ensure complete coverage without excess pooling.  
+5. **Cure Time:**  
+   - Allow the sealant to cure for a minimum of <cure time spec> before proceeding to the next step.  
+6. **Final Inspection:**  
+   - Inspect the application for uniformity and coverage. Ensure no areas are missed.  
+7. **Document Application:**  
+   - Record the application in the MES system, noting the date, time, and operator ID.
+
+**5. Acceptance Criteria & Verification**  
+- **Measurable Checks:**  
+  - Ensure all exposed welds are covered with sealant.  
+  - No visible gaps or missed areas.  
+- **Test Pass/Fail Thresholds:**  
+  - Pass: 100% coverage of exposed welds.  
+  - Fail: Any missed areas or insufficient coverage.  
+- **Logging/Traceability:**  
+  - Document the application in the MES system and on the Traveler.
+
+**6. Nonconformance**  
+- If a check fails:  
+  - Stop the process immediately.  
+  - Notify the supervisor and document the nonconformance.  
+  - Reapply sealant to any missed areas and re-inspect.
+
+**7. Documentation**  
+- Record the following:  
+  - Application date and time  
+  - Operator ID  
+  - Any nonconformance issues  
+- Where to record:  
+  - MES system  
+  - Traveler log  
+  - Nonconformance report (if applicable)  
+
+Ensure all steps are followed meticulously to maintain quality and safety standards."
+Perform leak test on coolant system after radiator installation. Record pressure readings and verify against specifications.,"# WORK INSTRUCTIONS: Leak Test on Coolant System After Radiator Installation
+
+## **1. Safety**
+- **Personal Protective Equipment (PPE):**
+  - Safety goggles
+  - Gloves (chemical resistant)
+  - Steel-toed boots
+- **Lockout/Tagout:**
+  - Ensure all equipment is powered down and locked out before starting the test.
+- **ESD/Voltage Hazards:**
+  - Ensure ESD wrist strap is worn when handling electronic components.
+- **Chemical Hazards:**
+  - Be aware of coolant spills; clean up immediately to prevent slips.
+- **Lifting Hazards:**
+  - Use proper lifting techniques or mechanical aids when handling heavy components.
+
+## **2. Tools & Materials**
+- **Tools:**
+  - Calibrated pressure gauge (0-200 kPa)
+  - Torque wrench (10-60 N·m)
+  - ESD wrist strap
+  - Leak detection solution (bubbles)
+- **Materials:**
+  - Coolant (as per spec)
+  - Radiator cap (new or verified)
+- **Software:**
+  - MES (Manufacturing Execution System) for logging results
+
+## **3. Preparation**
+- **Pre-checks:**
+  - Verify that the radiator is installed correctly and securely.
+  - Ensure all hoses and connections are tight and free of damage.
+- **Part and Revision Verification:**
+  - Confirm that the radiator and associated parts match the specified part numbers and revisions.
+
+## **4. Procedure**
+1. **Fill Coolant System:**
+   - Fill the coolant system with coolant until the recommended level is reached.
+2. **Install Radiator Cap:**
+   - Securely install the radiator cap to ensure a sealed system.
+3. **Connect Pressure Gauge:**
+   - Attach the calibrated pressure gauge to the radiator outlet.
+4. **Pressurize System:**
+   - Use a manual pump to pressurize the coolant system to <pressure spec> kPa.
+5. **Monitor Pressure:**
+   - Hold the pressure for a minimum of 5 minutes.
+6. **Check for Leaks:**
+   - Inspect all connections and joints for leaks using the leak detection solution.
+   - Look for bubbles indicating leaks.
+7. **Record Pressure Reading:**
+   - Log the pressure reading from the gauge in the MES.
+8. **Release Pressure:**
+   - Carefully release the pressure from the system after the test is complete.
+
+## **5. Acceptance Criteria & Verification**
+- **Pass Criteria:**
+  - No visible leaks detected during the 5-minute hold.
+  - Pressure remains stable within <pressure spec> kPa.
+- **Logging:**
+  - Record the pressure reading and any observations in the MES under the appropriate job number.
+
+## **6. Nonconformance**
+- If a leak is detected or pressure drops below <pressure spec> kPa:
+  - Immediately stop the test.
+  - Identify and rectify the source of the leak.
+  - Retest the system after repairs.
+  - Document the nonconformance in the MES and notify the supervisor.
+
+## **7. Documentation**
+- Record the following in the MES:
+  - Date and time of the test
+  - Operator name
+  - Pressure reading
+  - Observations (leaks, issues)
+  - Any corrective actions taken
+- Ensure all documentation is completed before moving to the next production step."
+Program the infotainment ECU with the latest software package and validate connectivity with dashboard display.,"# WORK INSTRUCTIONS: Programming Infotainment ECU and Validating Connectivity
+
+## **1. Safety**
+- **Personal Protective Equipment (PPE):**
+  - Safety glasses
+  - Anti-static wrist strap
+  - Steel-toed shoes
+- **Lockout/Tagout:**
+  - Ensure all power sources to the vehicle are locked out and tagged out before starting.
+- **ESD/Voltage Hazards:**
+  - Handle all electronic components with care to prevent electrostatic discharge (ESD).
+- **Chemical Hazards:**
+  - Be aware of any cleaning agents used in the area; refer to Safety Data Sheets (SDS) for proper handling.
+- **Lifting Hazards:**
+  - Use proper lifting techniques when handling heavy components.
+
+## **2. Tools & Materials**
+- **Tools:**
+  - Laptop with programming software installed
+  - OBD-II diagnostic tool
+  - Calibrated torque wrench (if applicable for securing ECU)
+- **Materials:**
+  - Latest software package for infotainment ECU (USB drive or direct download)
+  - Anti-static bags for electronic components
+- **Fixtures:**
+  - ECU mounting bracket (if applicable)
+- **Software:**
+  - Infotainment ECU programming software (version <version number>)
+
+## **3. Preparation**
+- **Pre-checks:**
+  - Verify that the vehicle battery is fully charged.
+  - Ensure the vehicle is in a well-ventilated area.
+- **Part and Revision Verification:**
+  - Confirm the infotainment ECU part number and revision match the latest software package.
+  - Check for any previous software versions installed on the ECU.
+
+## **4. Procedure**
+1. **Connect Laptop:**
+   - Connect the laptop to the vehicle’s OBD-II port using the appropriate cable.
+2. **Power On:**
+   - Turn on the vehicle ignition to the ""ON"" position without starting the engine.
+3. **Launch Software:**
+   - Open the infotainment ECU programming software on the laptop.
+4. **Select ECU:**
+   - Navigate to the ECU selection menu and choose the infotainment ECU.
+5. **Upload Software:**
+   - Select the latest software package from the USB drive or download it directly.
+   - Click on ""Upload"" and wait for the process to complete (approx. <time spec>).
+6. **Verify Upload:**
+   - Confirm that the software upload is successful by checking the software version displayed on the screen.
+7. **Disconnect Laptop:**
+   - Safely disconnect the laptop from the OBD-II port.
+8. **Reconnect Power:**
+   - Remove lockout/tagout devices and restore power to the vehicle.
+9. **Validate Connectivity:**
+   - Start the vehicle and check the dashboard display for infotainment system functionality.
+   - Test all features (e.g., audio, navigation, Bluetooth) to ensure proper operation.
+
+## **5. Acceptance Criteria & Verification**
+- **Measurable Checks:**
+  - Software version on the ECU must match the latest version uploaded.
+  - All infotainment features must function without errors.
+- **Test Pass/Fail Thresholds:**
+  - If any feature fails to operate, the task is considered a failure.
+- **Logging/Traceability:**
+  - Record the software version, date, and technician name in the MES system.
+
+## **6. Nonconformance**
+- If the software upload fails or any feature does not operate correctly:
+  - Re-attempt the upload process.
+  - If the issue persists, escalate to the engineering team for further analysis.
+  - Document the failure in the Nonconformance Report (NCR) and log it in the MES system.
+
+## **7. Documentation**
+- Record the following in the MES system:
+  - Software version uploaded
+  - Date and time of programming
+  - Technician name
+  - Any issues encountered during the process
+- Ensure the Traveler is updated with the completed task and any nonconformance noted.
+
+**End of Work Instructions**"

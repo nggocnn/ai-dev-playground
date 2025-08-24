@@ -1,0 +1,16 @@
+**Key Points:**
+- Focus on addressing complaints about slow mobile app performance on 3G connections.
+- Image assets in product listings are currently too large (up to 2MB); plan to compress to under 300KB using WebP format.
+- Redis caching has been implemented, reducing API latency by 25%.
+
+**Decisions:**
+- Release the performance update to 20% of users on Friday and monitor metrics for one week before a full rollout.
+
+**Action Items:**
+- **FE Team:** Compress image assets to under 300KB and convert to WebP format. (Due date not specified)
+- **BE Team:** Provide test endpoints for QA by Thursday.
+- **QA Team:** Prepare regression tests for caching scenarios. (Due date: Thursday)
+- **Design Team:** Adjust layouts for compatibility with compressed images while maintaining quality. (Due date not specified)
+- **Analytics Team:** Set up tracking for app load time, bounce rate, and user session duration. (Due date not specified)
+- **Ops Team:** Set up a staging environment with new image and API optimizations for QA testing. (Due date not specified)
+- **FE Team:** Explore prefetching for assets on Wi-Fi to improve cold-start performance. (Due date not specified)

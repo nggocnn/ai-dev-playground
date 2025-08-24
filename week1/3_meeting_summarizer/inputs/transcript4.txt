@@ -1,0 +1,11 @@
+[16:15 - Architecture Review]
+Architect: We are considering migrating from our monolithic architecture to microservices, starting with the user service as a pilot.
+Backend: Extracting the user service first makes sense because it has minimal dependencies compared to payment and order services.
+Security: We must ensure JWT token validation is handled centrally to prevent security drift.
+DevOps: Will prepare Kubernetes namespaces and CI/CD pipelines for the new service. Proposes using ArgoCD for deployment management.
+PM: Decision: Approve pilot migration starting next sprint. Milestone 1: basic service extraction in 2 weeks.
+QA: Will develop a new set of test plans for service-to-service calls, focusing on authentication and error handling.
+Data Team: Need to replicate relevant user tables to the new service’s database without causing downtime.
+Backend: We should also consider introducing an API gateway layer now, to handle routing between services.
+Architect: Agreed. Also need to decide on service discovery approach—Consul vs. native K8s service registry.
+Ops: Will run a cost estimate for the new infrastructure.

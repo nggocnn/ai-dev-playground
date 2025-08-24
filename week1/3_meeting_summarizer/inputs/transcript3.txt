@@ -1,0 +1,11 @@
+[14:00 - Incident Postmortem]
+Ops: Yesterday, we had an outage from 13:05 to 13:47 due to an expired TLS certificate on the main API gateway.
+SRE: Root cause was that the certificate auto-renewal cronjob failed silently two months ago. Monitoring didn’t catch it because no alert was configured for cert expiry.
+PM: This impacted 100% of users during the downtime window. Some customers attempted multiple retries, leading to increased server load.
+SRE: Decision: Implement automatic certificate renewal using Let's Encrypt with proper failure alerts in PagerDuty.
+Dev: Action item to add certificate expiry checks in our Grafana dashboards.
+Ops: We’ll also update the runbook to include a manual verification step every month.
+QA: Will write a test to hit the API over HTTPS and verify a valid certificate is in place.
+Security: Suggest adding a 30-day expiry alert and also a 7-day urgent alert for certificates.
+PM: Communication to customers went out within 30 minutes of detection; however, feedback indicates they want faster updates.
+Comms: Will prepare a pre-approved incident template for quicker public posting.
