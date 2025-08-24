@@ -1,0 +1,16 @@
+query,rank,similarity,title,short_description,price,category
+warm cotton sweatshirt,1,0.566314,Cable Knit Sweater,Warm cable-knit sweater in cream wool blend.,65.0,Sweaters
+warm cotton sweatshirt,2,0.562182,White Crewneck T-Shirt,Soft cotton crewneck tee in bright white.,15.0,T-Shirts
+warm cotton sweatshirt,3,0.523675,Fleece Zip Hoodie,Warm fleece-lined zip-up hoodie with drawstring hood.,44.99,Hoodies
+slim black leather jacket,1,0.794151,Black Leather Jacket,Stylish black leather jacket with a slim fit design.,120.0,Jackets
+slim black leather jacket,2,0.557334,Black V-Neck Tee,Lightweight black V-neck t-shirt with slim silhouette.,17.5,T-Shirts
+slim black leather jacket,3,0.436863,Little Black Dress,Classic black sheath dress suitable for evening events.,89.0,Dresses
+breathable running shorts,1,0.709092,Athletic Mesh Shorts,Breathable mesh shorts with elastic waistband for sports.,29.0,Shorts
+breathable running shorts,2,0.668022,Breathable Running Shorts,Featherweight running shorts with quick-dry liner.,33.0,Shorts
+breathable running shorts,3,0.601303,Athletic Pullover Hoodie,Breathable pullover hoodie ideal for workouts and running.,46.0,Hoodies
+office-ready white blouse,1,0.453713,White Crewneck T-Shirt,Soft cotton crewneck tee in bright white.,15.0,T-Shirts
+office-ready white blouse,2,0.407139,Shirt Dress,Button-down shirt dress in breathable cotton poplin.,69.0,Dresses
+office-ready white blouse,3,0.381759,Little Black Dress,Classic black sheath dress suitable for evening events.,89.0,Dresses
+waterproof hiking jacket,1,0.666341,Hiking Shell Jacket,Breathable waterproof hiking shell with sealed seams.,159.0,Jackets
+waterproof hiking jacket,2,0.613836,Waterproof Parka,Long waterproof parka with adjustable hood for rainy days.,149.0,Jackets
+waterproof hiking jacket,3,0.597502,Rain Jacket,Lightweight rain jacket with water-repellent finish.,89.0,Jackets

@@ -1,0 +1,14 @@
+**Key Points:**
+- Sprint 15 planning focuses on completing the payment feature and improving page load speed.
+- Backend has completed the payment and login APIs; payment API is unit tested, login API awaiting QA confirmation.
+- Frontend has a display error on the product page, especially for products without images, with a fix planned before noon.
+- DevOps has configured CI/CD for the staging environment and needs access from Minh to test deployment; updated pipeline for automated testing after each deployment.
+- Test cases for the login API are completed and will be tested in the morning.
+
+**Decisions:**
+- The addition of lazy-loading for images will be postponed to Sprint 16 to avoid impacting the current deadline.
+
+**Action Items:**
+- **Minh:** Provide access to DevOps for testing deployment (due date not specified).
+- **Minh:** Merge the login API into the main branch after QA approval (due date not specified).
+- **All team members:** Update task progress on Jira by 5 PM today.

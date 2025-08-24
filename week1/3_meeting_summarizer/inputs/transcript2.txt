@@ -1,0 +1,10 @@
+[10:30 - Weekly Product Sync]
+Lead: Today’s focus is mobile app performance. We’ve had multiple complaints about slow loading on 3G connections.
+FE: We found that image assets in the product listing are up to 2MB each. Plan is to compress them to under 300KB and use WebP format.
+BE: Implemented Redis caching for product details, reducing API latency by 25%. We’ll monitor memory usage to ensure stability.
+PM: Decision: Release the performance update to 20% of users on Friday, monitor metrics for one week before rolling out to everyone.
+QA: Will prepare regression tests specifically for caching scenarios. Need BE team to provide test endpoints by Thursday.
+Design: Will adjust layouts to work better with compressed images and ensure quality is not impacted.
+Analytics: Will set up tracking for app load time, bounce rate, and user session duration to measure the impact.
+Ops: Can set up a staging environment with the new image and API optimizations so QA can test with realistic network throttling.
+FE: Also exploring prefetching for assets when on Wi-Fi, to improve cold-start performance.

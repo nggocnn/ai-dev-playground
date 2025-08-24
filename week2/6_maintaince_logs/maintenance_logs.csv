@@ -1,0 +1,11 @@
+log_id,log_entry,label
+1,Driver reported heavy traffic on highway due to construction,Traffic
+2,"Package not accepted, customer unavailable at given time",Customer Issue
+3,"Vehicle engine failed during route, replacement dispatched",Vehicle Issue
+4,Unexpected rainstorm delayed loading at warehouse,Weather
+5,"Sorting label missing, required manual barcode scan",Sorting/Labeling Error
+6,Driver took a wrong turn and had to reroute,Human Error
+7,"No issue reported, arrived on time",Other
+8,"Address was incorrect, customer unreachable",Customer Issue
+9,System glitch during check-in at loading dock,Technical System Failure
+10,Road accident caused a long halt near delivery point,Traffic

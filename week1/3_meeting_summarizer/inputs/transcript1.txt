@@ -1,0 +1,10 @@
+[09:00 - Sprint Planning Meeting]
+Anna: Chào team, hôm nay chúng ta sẽ lên kế hoạch cho Sprint 15. Sprint này kéo dài 2 tuần, mục tiêu chính là hoàn thiện tính năng thanh toán và cải thiện tốc độ tải trang.
+Minh: Backend đã hoàn thành API thanh toán và API đăng nhập. API thanh toán đã qua kiểm thử đơn vị, còn API đăng nhập thì đang chờ QA xác nhận.
+Trang: Frontend hiện gặp lỗi hiển thị ở trang sản phẩm, đặc biệt khi sản phẩm không có hình ảnh. Mình dự kiến fix trước trưa nay.
+Huy: DevOps đã cấu hình CI/CD cho môi trường staging. Cần quyền truy cập từ Minh để test deploy. Ngoài ra, mình đã cập nhật pipeline để chạy kiểm thử tự động sau mỗi lần deploy.
+Anna: Nhớ cập nhật tiến độ các task lên Jira trước 5 giờ chiều hôm nay. Minh, sau khi QA xác nhận API đăng nhập, nhớ merge vào nhánh main.
+QA: Hiện mình đã viết xong test cases cho API đăng nhập, sẽ chạy kiểm thử trong buổi sáng. Nếu không có vấn đề gì thì sẽ approve ngay.
+Minh: Ok, mình sẽ sẵn sàng merge ngay khi có approval.
+Trang: Ngoài lỗi hiển thị, mình cũng muốn thêm lazy-loading cho hình ảnh để cải thiện hiệu suất.
+Anna: Ý tưởng hay, nhưng mình nghĩ nên để qua Sprint 16 để không ảnh hưởng tới deadline hiện tại.

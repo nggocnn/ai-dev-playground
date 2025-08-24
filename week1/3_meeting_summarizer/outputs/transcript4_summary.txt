@@ -1,0 +1,21 @@
+**Key Points:**
+- Migration from monolithic architecture to microservices is being considered, starting with the user service.
+- User service has minimal dependencies, making it a suitable candidate for the pilot.
+- Centralized JWT token validation is essential to maintain security.
+- Kubernetes namespaces and CI/CD pipelines will be prepared for the new service, with ArgoCD proposed for deployment management.
+- A new set of test plans will be developed for service-to-service calls, focusing on authentication and error handling.
+- Relevant user tables need to be replicated to the new service’s database without downtime.
+- Consideration for introducing an API gateway layer for routing between services.
+- Decision needed on service discovery approach (Consul vs. native K8s service registry).
+- A cost estimate for the new infrastructure will be conducted.
+
+**Decisions:**
+- Approve pilot migration of the user service starting next sprint.
+- Milestone 1: basic service extraction to be completed in 2 weeks.
+
+**Action Items:**
+- **DevOps**: Prepare Kubernetes namespaces and CI/CD pipelines for the new service. (Due date not mentioned)
+- **QA**: Develop a new set of test plans for service-to-service calls. (Due date not mentioned)
+- **Data Team**: Replicate relevant user tables to the new service’s database without downtime. (Due date not mentioned)
+- **Ops**: Run a cost estimate for the new infrastructure. (Due date not mentioned)
+- **Architect**: Decide on service discovery approach (Consul vs. native K8s service registry). (Due date not mentioned)

@@ -1,0 +1,1 @@
+Xin chào! Đây là phần giới thiệu ngắn về ứng dụng chuyển văn bản thành giọng nói. Công cụ cho phép bạn nhập nội dung, chọn ngôn ngữ và tạo tệp âm thanh rõ ràng ngay trên máy tính. Không cần cấu hình phức tạp: đặt tệp .txt vào thư mục inputs, chạy lệnh, và nhận file .wav ở outputs. Hãy dùng đoạn văn bản ngắn, câu rõ ràng, và tránh ký tự lạ để có kết quả ổn định.

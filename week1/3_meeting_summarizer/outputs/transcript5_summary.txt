@@ -1,0 +1,16 @@
+**Key Points:**
+- Customers report slow search results, particularly during peak hours (7 PM - 9 PM).
+- Unindexed queries are taking up to 5 seconds to complete.
+- Suggestions include adding indexes on "category" and "price_range" fields and partitioning the products table.
+- Implementation of skeleton loaders for immediate feedback during loading.
+- A caching experiment for search results will be conducted for 2 weeks alongside indexing.
+
+**Decisions:**
+- Implement a 2-week trial for caching search results while adding indexes.
+
+**Action Items:**
+- **Analytics**: Track average search time, conversion rate, and user retention before and after caching (Owner not specified, due date not mentioned).
+- **Ops**: Monitor database CPU and memory load during the test (Owner not specified, due date not mentioned).
+- **QA**: Create test cases for caching and indexing scenarios; coordinate with BE and DB teams (Owner not specified, due date not mentioned).
+- **Marketing**: Prepare a campaign to promote "faster search" if performance improves significantly (Owner not specified, due date not mentioned).
+- **Search Team**: Consider query result pre-computation for top 100 search terms (Owner not specified, due date not mentioned).

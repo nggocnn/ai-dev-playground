@@ -1,0 +1,1 @@
+Giải pháp TTS hỗ trợ làm phụ đề thoại, trợ lý ảo và đọc nội dung học tập. Quy trình hoạt động đơn giản: chọn mô hình phù hợp, nhập văn bản, sau đó phần mềm tạo ra âm thanh tự nhiên ở tốc độ tiêu chuẩn. Bạn có thể chỉnh ngữ liệu theo ngôn ngữ, thêm dấu câu hợp lý và kiểm tra âm lượng đầu ra để đạt chất lượng mong muốn.
