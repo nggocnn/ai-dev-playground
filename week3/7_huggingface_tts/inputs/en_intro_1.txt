@@ -1,0 +1,1 @@
+Welcome! This short introduction explains how to generate speech from plain text. Place your .txt files in the inputs folder, select the language, and run the script to produce clean .wav audio. Keep sentences concise, use standard punctuation, and prefer readable words to help the model pronounce content consistently.

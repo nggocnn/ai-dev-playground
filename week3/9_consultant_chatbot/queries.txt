@@ -1,0 +1,30 @@
+I travel a lot for work. Under 1.3 kg, all-day battery, premium keyboard, Windows.
+Best value 1080p/1440p gaming laptop around mid-range budget with RTX 4060.
+Quiet, fanless or near-silent laptop for note-taking and office apps with very long battery.
+Mac for Final Cut Pro and Lightroom - 14" preferred, strong battery.
+I need CUDA for machine learning (PyTorch), compact 14" if possible.
+Best 16" creator laptop for 4K video editing with good thermals and color-accurate display.
+Student laptop for CS: needs 16GB RAM, good battery, lightweight; budget friendly.
+Business ultrabook with LTE/5G option and strong security features.
+2-in-1 with OLED and pen support for drawing and taking notes.
+AAA gaming with high refresh rate, good cooling, minimal coil whine.
+Budget gaming laptop that can run esports titles smoothly; durable chassis.
+Windows laptop with excellent Linux dual-boot compatibility and easy upgrades.
+Portable creator laptop with OLED and NVIDIA for Adobe Premiere Pro.
+Mac vs Windows for Python, Docker, and light web dev - prefer quiet and battery.
+Large screen but light weight for spreadsheets and multitasking on the go.
+A premium 14" ultrabook with Thunderbolt 4 and excellent trackpad.
+Workstation-class laptop for Blender and 3D rendering (CUDA required).
+A good value 15-16" laptop for home office and occasional photo editing.
+Chromebook 2-in-1 for web-first workflows and classroom use.
+ARM-based Windows laptop with very long battery life; note: okay without CUDA.
+Repairable/modular laptop that I can upgrade over time; Linux friendly.
+Gaming laptop that still looks professional for office; under 2.2 kg if possible.
+OLED display for photo work, accurate colors; 14-15" preferred.
+Travel-friendly Windows laptop with great webcam and microphones for calls.
+Quiet creator laptop with RTX 4050 or better; 14-15" and under 1.7 kg.
+Premium build quality and long warranty/support for enterprise deployments.
+Under $1200, reliable for college (Office, coding, light editing), long battery.
+Best Mac for Xcode and occasional Resolve editing; 14" preferred.
+VR-ready gaming laptop recommendations with strong GPU and ports.
+Budget ultrabook for students: light, sturdy, and good battery life.

@@ -1,0 +1,51 @@
+id,name,description,tags
+1,"Apple MacBook Air 13 (M3, 2024)","Apple M3 (8-core CPU, 10-core GPU), 16GB RAM, 512GB SSD, 13.6"" Liquid Retina, ~1.24kg, up to ~18h battery. Ultraportable macOS for everyday productivity.",ultrabook;lightweight;long-battery;macos;student;business
+2,"Apple MacBook Air 15 (M3, 2024)","Apple M3 (8-core CPU, 10-core GPU), 16GB RAM, 512GB SSD, 15.3"" Liquid Retina, ~1.51kg, long battery life. Larger screen Air for multitasking.",ultrabook;15-inch;macos;long-battery;student;business
+3,Apple MacBook Pro 14 (M3 Pro),"Apple M3 Pro, 18GB RAM, 1TB SSD, 14.2"" Liquid Retina XDR, excellent performance for Xcode, creative work; strong battery, quiet.",creator;macos;video-editing;photo-editing;software-dev;premium
+4,Apple MacBook Pro 16 (M3 Max),"Apple M3 Max, 36GB RAM, 1TB SSD, 16.2"" Liquid Retina XDR, workstation-class power for heavy creative workloads; great thermals & battery.",workstation;creator;macos;video-editing;3d;premium
+5,Dell XPS 13 (9340),"Intel Core Ultra 7, 32GB RAM, 1TB SSD, 13.4"" OLED, ~1.19kg, premium build, compact footprint, Thunderbolt 4.",ultrabook;windows;lightweight;oled;business;travel
+6,Dell XPS 14 (9440),"Intel Core Ultra 7, up to RTX 4050 Laptop GPU, 32GB RAM, 1TB SSD, 14.5"" OLED option; strong all-rounder for creators.",creator;windows;oled;business;portable
+7,Dell XPS 16 (9640),"Intel Core Ultra 7, up to RTX 4070 Laptop GPU, 32GB RAM, 1TB SSD, 16.3"" display; sleek large-screen creator laptop.",creator;windows;large-screen;video-editing;photo-editing
+8,Dell Latitude 7450,"Intel Core Ultra (vPro options), 16GB-32GB RAM, 512GB-1TB SSD, 14"" display; enterprise features, LTE/5G options, long battery.",business;windows;enterprise;long-battery;lte
+9,Dell G15 (2024),"Intel Core i7 / AMD Ryzen 7 options, RTX 4060 Laptop GPU, 16GB RAM, 512GB SSD, 15.6"" 165Hz; value gaming.",gaming;windows;budget;1080p;rtx4060
+10,Alienware m16 R2,"Intel Core i9 HX options, up to RTX 4070/4080 Laptop GPU, 32GB RAM, 1TB SSD, 16"" high-refresh; performance gaming with premium chassis.",gaming;windows;high-refresh;performance
+11,Lenovo ThinkPad X1 Carbon Gen 12,"Intel Core Ultra 7, 32GB RAM, 1TB SSD, 14"" 2.8K/OLED options, ~1.1kg; legendary keyboard, business security & service.",business;windows;ultrabook;lightweight;oled
+12,Lenovo ThinkPad T14s Gen 5,"Intel Core Ultra, 16-32GB RAM, 512GB-1TB SSD, 14""; durable business ultrabook with long battery and ports.",business;windows;ultrabook;long-battery
+13,Lenovo Yoga 9i 14 Gen 9,"Intel Core Ultra, 16-32GB RAM, 512GB-1TB SSD, 14"" OLED 2-in-1 with pen; premium convertible for creators and students.",2-in-1;windows;oled;creator;student
+14,Lenovo Legion 5 Pro 16 (2024),"AMD Ryzen / Intel Core options, up to RTX 4070 Laptop GPU, 16GB-32GB RAM, 1TB SSD, 16"" 165-240Hz; great thermals for AAA gaming.",gaming;windows;16-inch;rtx4070;high-refresh
+15,Lenovo LOQ 15 (2024),"Intel/AMD options with RTX 4050 Laptop GPU, 16GB RAM, 512GB SSD, 15.6"" 144-165Hz; budget gaming entry with solid performance.",gaming;windows;budget;rtx4050;value
+16,HP Spectre x360 14 (2024),"Intel Core Ultra 7, 16-32GB RAM, 512GB-1TB SSD, 14"" 2.8K OLED convertible, premium design, long battery.",2-in-1;windows;oled;business;creator;portable
+17,HP Envy x360 15,"Intel/AMD options, 16GB RAM, 512GB SSD, 15.6"" OLED options; midrange convertible good for home office & light creation.",2-in-1;windows;midrange;home-office
+18,HP EliteBook 840 G11,"Intel Core Ultra (vPro), 16-32GB RAM, 512GB-1TB SSD, 14""; enterprise security, durable chassis, docking & LTE options.",business;windows;enterprise;it-managed
+19,HP Omen 16 (2024),"Intel Core i7/i9 or AMD Ryzen, up to RTX 4070 Laptop GPU, 16GB-32GB RAM, 1TB SSD, 16"" 165-240Hz; solid thermal design for gaming.",gaming;windows;rtx4070;high-refresh
+20,ASUS ROG Zephyrus G14 (2024),"AMD Ryzen 9 8945HS, up to RTX 4070 Laptop GPU, 32GB RAM, 1TB SSD, 14"" OLED, ~1.5kg; powerful yet portable gaming/creator.",gaming;creator;windows;oled;portable
+21,ASUS ROG Strix G16 (2024),"Intel Core i9 HX class, up to RTX 4080 Laptop GPU, 32GB RAM, 1TB SSD, 16"" high-refresh; performance gaming rig.",gaming;windows;high-refresh;performance;rtx4080
+22,ASUS TUF Gaming A15 (2024),"AMD Ryzen 7 7840HS/8845HS, RTX 4060 Laptop GPU, 16GB RAM, 512GB-1TB SSD, 15.6"" 144-165Hz; durable, value gaming.",gaming;windows;rtx4060;durable;value
+23,ASUS Zenbook 14 OLED (UX3405),"Intel Core Ultra 7, 16-32GB RAM, 512GB-1TB SSD, 14"" 3K OLED, ~1.2kg; premium ultrabook with great battery.",ultrabook;windows;oled;lightweight;long-battery
+24,ASUS Vivobook S15 OLED,"Intel Core Ultra, 16GB RAM, 512GB SSD, 15.6"" OLED; stylish midrange daily driver.",midrange;windows;oled;15-inch
+25,Acer Swift Go 14 (2024),"Intel Core Ultra 7, 16-32GB RAM, 512GB-1TB SSD, 14"" OLED; lightweight with strong battery for students and travel.",ultrabook;windows;oled;student;travel
+26,Acer Swift X 14,"Intel Core Ultra 7, RTX 4050 Laptop GPU, 16GB RAM, 1TB SSD, 14.5"" OLED; creator-focused portable with CUDA support.",creator;windows;oled;rtx4050;portable
+27,Acer Predator Helios Neo 16,"Intel Core i7/i9 HX, up to RTX 4070 Laptop GPU, 16"" 165-240Hz, 16-32GB RAM, 1TB SSD; strong gaming value.",gaming;windows;rtx4070;high-refresh;value
+28,Acer Nitro 16 (2024),"Intel/AMD options, RTX 4060 Laptop GPU, 16GB RAM, 512GB SSD, 16"" 165Hz; mainstream gaming notebook.",gaming;windows;rtx4060;mainstream
+29,Acer TravelMate P6 14,"Intel Core Ultra, 16GB RAM, 512GB SSD, 14""; light business laptop with long battery and enterprise features.",business;windows;lightweight;long-battery
+30,MSI Stealth 14 Studio,"Intel Core i7/i9 H-series, RTX 4060 Laptop GPU, 16GB-32GB RAM, 1TB SSD, 14""; compact creator/gaming hybrid.",creator;gaming;windows;portable;rtx4060
+31,MSI Katana 15,"Intel Core i7 H-series, RTX 4060 Laptop GPU, 16GB RAM, 512GB-1TB SSD, 15.6"" 144Hz; budget gaming performance.",gaming;windows;budget;rtx4060
+32,MSI Prestige 14,"Intel Core Ultra, 16GB RAM, 512GB-1TB SSD, 14""; thin-and-light for business/creators with good battery.",business;creator;windows;lightweight
+33,Razer Blade 14 (2024),"AMD Ryzen 9 8945HS, RTX 4070 Laptop GPU, 32GB RAM, 1TB SSD, 14"" 240Hz; premium compact gaming/creator.",gaming;creator;windows;premium;portable;rtx4070
+34,Razer Blade 16 (2024),"Intel Core i9 HX, up to RTX 4090 Laptop GPU, 32GB+ RAM, 1-2TB SSD, 16"" high-refresh; top-tier performance and build.",gaming;workstation;windows;premium;rtx4090
+35,Samsung Galaxy Book4 Pro 14,"Intel Core Ultra, 16GB RAM, 512GB SSD, 14"" AMOLED, very light; great for travel and office work.",ultrabook;windows;amoled;lightweight;travel
+36,Samsung Galaxy Book4 Pro 16,"Intel Core Ultra, 16GB RAM, 512GB-1TB SSD, 16"" AMOLED; larger screen for productivity, still slim.",business;windows;amoled;16-inch
+37,"Microsoft Surface Laptop (7th Gen, 13.8"", Copilot+ PC)","Qualcomm Snapdragon X Elite/Plus, 16-32GB RAM, 512GB-1TB SSD, 13.8""; excellent battery & quiet. Note: no CUDA for NVIDIA workflows.",ultrabook;windows;arm;long-battery;quiet
+38,"Microsoft Surface Laptop (7th Gen, 15"", Copilot+ PC)","Qualcomm Snapdragon X Elite/Plus, 16-32GB RAM, 512GB-1TB SSD, 15""; big screen, long battery, silent ARM performance.",business;windows;arm;long-battery;15-inch
+39,Microsoft Surface Laptop Studio 2,"Intel Core i7, up to RTX 4060 Laptop GPU, 32GB RAM, 1TB SSD, 14.4"" 120Hz; creative 2-in-1 with pen for designers.",creator;2-in-1;windows;rtx4060;pen
+40,Framework Laptop 13 (AMD),"AMD Ryzen 7 7840U, 16-32GB RAM (user-upgradeable), 512GB-2TB SSD (modular), 13.5""; repairable & modular design.",ultrabook;windows;linux-friendly;upgradeable;repairable
+41,Framework Laptop 16,"AMD Ryzen + optional discrete GPU module, upgradeable RAM/SSD, 16""; modular workstation/creator with repairability.",workstation;windows;linux-friendly;upgradeable;modular
+42,Gigabyte Aero 14 OLED,"Intel Core Ultra, RTX 4050 Laptop GPU, 16GB RAM, 1TB SSD, 14"" OLED; creator laptop with color-accurate display.",creator;windows;oled;color-accurate;rtx4050
+43,Gigabyte Aorus 15,"Intel Core i7/i9, RTX 4060/4070 Laptop GPU, 15.6"" high-refresh; gaming performance at reasonable value.",gaming;windows;high-refresh;rtx4070
+44,LG Gram 14,"Intel Core Ultra, 16GB RAM, 512GB SSD, 14""; ultra-light (around ~1kg), big battery for travel.",ultrabook;windows;lightweight;long-battery;travel
+45,LG Gram 17,"Intel Core Ultra, 16GB RAM, 1TB SSD, 17""; extremely light for its size with large screen for productivity.",business;windows;lightweight;large-screen
+46,HUAWEI MateBook X Pro (2024),"Intel Core Ultra, 16-32GB RAM, 1TB SSD, 14.2"" 3K OLED; premium build, great screen (availability varies by region).",ultrabook;windows;oled;premium
+47,Xiaomi Redmi Book Pro 14 (2024),"Intel Core Ultra options, 16GB RAM, 512GB SSD, 14"" high-res; value ultrabook (regional availability).",ultrabook;windows;budget;value
+48,Acer Chromebook Spin 714 (2024),"Intel Core Ultra U-series, 8-16GB RAM, 256-512GB storage, 14"" 2-in-1 running ChromeOS; great for web-centric workflows.",chromebook;2-in-1;student;web-first;budget
+49,Dell Inspiron 14 Plus,"Intel Core Ultra, integrated/entry GPU options, 16GB RAM, 512GB SSD, 14""; midrange all-rounder for students and home office.",midrange;windows;student;home-office
+50,Lenovo IdeaPad Slim 5 14,"AMD Ryzen 7 U-series options, 16GB RAM, 512GB SSD, 14""; budget ultrabook with solid build and battery life.",ultrabook;windows;budget;student

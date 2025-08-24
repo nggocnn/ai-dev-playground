@@ -1,0 +1,1 @@
+This TTS utility is designed for quick demos, training materials, and accessibility notes. It accepts UTF-8 text, processes it with a chosen model, and writes a waveform at a standard sampling rate. For best results, keep paragraphs focused, avoid excessive symbols, and review the output volume before sharing.
