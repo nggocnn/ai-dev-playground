@@ -1,2 +1,2 @@
-transformers
-torch
+transformers==4.55.4
+torch==2.8.0
