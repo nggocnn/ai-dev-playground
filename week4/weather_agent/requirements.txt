@@ -1,0 +1,26 @@
+# Core Langchain packages (compatible versions)
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-tavily>=0.2.11
+
+# LangGraph for agent creation
+langgraph>=0.2.14
+
+# API wrappers and utilities
+pyowm>=3.3.0
+tavily-python>=0.3.3
+requests>=2.31.0
+
+# Azure OpenAI support
+openai>=1.40.0
+
+# Token counting
+tiktoken>=0.7.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Additional utilities
+typing-extensions>=4.8.0
+pydantic>=2.8.0
