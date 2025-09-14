@@ -1,14 +1,14 @@
 # AI Development Playground
 
-Welcome to the AI Development Playground! This repository contains a comprehensive collection of AI projects and tools exploring various aspects of artificial intelligence, machine learning, natural language processing, computer vision, and vector databases. Each project is organized by week and focuses on specific applications ranging from chatbots to image analysis.
+Welcome to the AI Development Playground! This repository contains a comprehensive collection of AI projects and tools exploring various aspects of artificial intelligence, machine learning, natural language processing, computer vision, vector databases, and document processing. Each project is organized by week and focuses on specific applications ranging from chatbots to image analysis and document generation.
 
 ## Highlights
 
-- **12 Complete Projects** across 4 weeks of development
-- **Diverse AI Applications**: Chatbots, TTS, semantic search, image analysis, vector databases
-- **Modern Tech Stack**: LangChain, HuggingFace, Pinecone, Azure OpenAI, FastAPI, Next.js
+- **15 Complete Projects** across 5 weeks of development
+- **Diverse AI Applications**: Chatbots, TTS, semantic search, image analysis, vector databases, document generation, RAG systems
+- **Modern Tech Stack**: LangChain, HuggingFace, Pinecone, ChromaDB, Azure OpenAI, FastAPI, Next.js
 - **Production-Ready**: Complete with documentation, requirements, and setup instructions
-- **Interactive Examples**: Console interfaces, web applications, and API endpoints
+- **Interactive Examples**: Console interfaces, web applications, API endpoints, and document processing pipelines
 
 ## Repository Structure
 
@@ -96,6 +96,29 @@ The repository is structured as follows:
 - **Features**: Image upload, URL analysis, cloud classification with confidence scores
 - **Usage**: Refer to the [README.md](week4/12_statellite_cloud_detection/README.md) in the `12_statellite_cloud_detection` folder for details.
 
+### Week 5
+
+#### 13. Resume Generator
+
+- **Description**: AI-powered resume generator that creates professional resumes from structured input data using customizable templates and prompts.
+- **Files**: `resume_generator.py`, `input.json`, `sample_data.json`, `prompts.txt`, `outputs/`
+- **Features**: Template-based generation, structured input processing, multiple output formats
+- **Usage**: Refer to the [README.md](week5/13_resume_generator/README.md) in the `13_resume_generator` folder for details.
+
+#### 14. Patient Info Collector
+
+- **Description**: Healthcare information system that collects, processes, and stores patient information using AI-powered document analysis and vector storage.
+- **Files**: `patient_info_collector.py`, `documents/`, `reports/`, `chroma_db/`
+- **Features**: Document processing, vector storage with ChromaDB, patient data management
+- **Usage**: Refer to the [README.md](week5/14_patient_info_collector/README.md) in the `14_patient_info_collector` folder for details.
+
+#### 15. Retail RAG Chatbot
+
+- **Description**: Retrieval-Augmented Generation (RAG) chatbot for retail applications with product knowledge base and intelligent query processing.
+- **Files**: `retail_chatbot.py`, `products/`, `chroma_db/`
+- **Features**: Product knowledge retrieval, context-aware responses, vector-based search
+- **Usage**: Refer to the [README.md](week5/15_retail_rag/README.md) in the `15_retail_rag` folder for details.
+
 ## Getting Started
 
 ### Prerequisites
@@ -146,10 +169,11 @@ Many projects require API keys. Check each project's `.env.sample` file for requ
 
 ## Technologies Used
 
-- **AI/ML**: LangChain, HuggingFace Transformers, Azure OpenAI
-- **Vector Databases**: Pinecone
+- **AI/ML**: LangChain, HuggingFace Transformers, Azure OpenAI, RAG (Retrieval-Augmented Generation)
+- **Vector Databases**: Pinecone, ChromaDB
 - **Web Frameworks**: FastAPI, Next.js
 - **Data Processing**: Pandas, NumPy
+- **Document Processing**: PDF parsing, text extraction, structured data generation
 - **APIs**: OpenWeatherMap, Tavily Search
 - **Frontend**: React, TypeScript, Tailwind CSS
 
@@ -159,6 +183,7 @@ Many projects require API keys. Check each project's `.env.sample` file for requ
 2. **Week 2**: Chatbots and function calling
 3. **Week 3**: Advanced NLP with TTS and semantic search
 4. **Week 4**: Vector databases, multi-modal AI, and full-stack applications
+5. **Week 5**: Document generation, healthcare AI, and RAG systems
 
 ## Contributing
 
