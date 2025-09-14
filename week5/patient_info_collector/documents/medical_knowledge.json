@@ -1,0 +1,378 @@
+{
+  "medical_knowledge": [
+    {
+      "id": "common_cold",
+      "title": "Common Cold",
+      "category": "respiratory",
+      "symptoms": [
+        "runny or stuffy nose",
+        "sore throat",
+        "mild cough",
+        "low-grade fever or no fever",
+        "sneezing",
+        "mild headache",
+        "fatigue and body aches"
+      ],
+      "content": "The common cold is a viral infection that affects the upper respiratory tract. It is one of the most frequent illnesses that people experience throughout their lives.",
+      "treatment": [
+        "Get plenty of rest to help your body fight the infection",
+        "Stay hydrated by drinking lots of fluids like water, herbal teas, and clear broths",
+        "Use a humidifier or breathe steam from a hot shower to ease congestion",
+        "Gargle with warm salt water to soothe a sore throat",
+        "Consider over-the-counter pain relievers like acetaminophen or ibuprofen for aches and pains",
+        "Throat lozenges or hard candies can help soothe throat irritation"
+      ],
+      "prevention": [
+        "Wash hands frequently with soap and water",
+        "Avoid touching your face, especially nose and mouth",
+        "Stay away from people who are sick",
+        "Maintain a healthy lifestyle with good nutrition and regular exercise",
+        "Get adequate sleep to keep your immune system strong"
+      ],
+      "when_to_see_doctor": [
+        "Symptoms last more than 10 days",
+        "Fever above 101.3°F (38.5°C)",
+        "Severe headache or sinus pain",
+        "Difficulty breathing or wheezing",
+        "Persistent cough with thick, colored mucus"
+      ]
+    },
+    {
+      "id": "tension_headache",
+      "title": "Tension Headache",
+      "category": "neurological",
+      "symptoms": [
+        "tight band sensation around the head",
+        "mild to moderate pain",
+        "muscle tension in neck and shoulders",
+        "difficulty concentrating"
+      ],
+      "content": "Tension headaches are the most common type of headache. They feel like a tight band around the head and are usually caused by stress, poor posture, or eye strain.",
+      "treatment": [
+        "Over-the-counter pain relievers (acetaminophen, ibuprofen, aspirin)",
+        "Apply heat or cold to head and neck",
+        "Gentle massage of temples and neck",
+        "Stress management techniques",
+        "Regular sleep schedule",
+        "Stay hydrated"
+      ],
+      "prevention": [
+        "Maintain good posture",
+        "Take regular breaks from computer work",
+        "Manage stress effectively",
+        "Get adequate sleep",
+        "Stay hydrated",
+        "Regular exercise"
+      ],
+      "when_to_see_doctor": [
+        "Headaches become more frequent or severe",
+        "Sudden onset of severe headache",
+        "Headache with fever, stiff neck, or vision changes",
+        "Headaches that don't respond to over-the-counter medication"
+      ]
+    },
+    {
+      "id": "migraine",
+      "title": "Migraine Headache",
+      "category": "neurological",
+      "symptoms": [
+        "intense, throbbing pain usually on one side",
+        "nausea and vomiting",
+        "sensitivity to light and sound",
+        "visual disturbances (aura)",
+        "dizziness",
+        "fatigue"
+      ],
+      "content": "Migraines are intense headaches that can last 4-72 hours if untreated. They often involve throbbing pain on one side of the head and may be preceded by visual or sensory changes called aura.",
+      "treatment": [
+        "Rest in a quiet, dark room",
+        "Apply cold compress to forehead",
+        "Stay hydrated",
+        "Avoid known triggers",
+        "Prescription medications may be necessary",
+        "Gentle neck and shoulder stretches"
+      ],
+      "prevention": [
+        "Identify and avoid triggers",
+        "Maintain regular sleep patterns",
+        "Eat regular meals",
+        "Stay hydrated",
+        "Manage stress",
+        "Limit alcohol and caffeine"
+      ],
+      "when_to_see_doctor": [
+        "Severe headache unlike any you've had before",
+        "Headache with fever and stiff neck",
+        "Headache after head injury",
+        "Chronic daily headaches",
+        "Headaches that worsen despite treatment"
+      ]
+    },
+    {
+      "id": "indigestion",
+      "title": "Indigestion (Dyspepsia)",
+      "category": "digestive",
+      "symptoms": [
+        "feeling of fullness in upper abdomen",
+        "bloating and gas",
+        "nausea",
+        "heartburn or acid reflux",
+        "stomach discomfort after eating"
+      ],
+      "content": "Indigestion is a feeling of discomfort in the upper abdomen often related to eating too much, too fast, or consuming spicy or fatty foods.",
+      "treatment": [
+        "Eat smaller, more frequent meals",
+        "Avoid spicy, fatty, or acidic foods",
+        "Don't lie down immediately after eating",
+        "Stay upright for at least 2-3 hours after meals",
+        "Over-the-counter antacids may help",
+        "Drink plenty of water"
+      ],
+      "prevention": [
+        "Eat slowly and chew thoroughly",
+        "Avoid overeating",
+        "Limit spicy and fatty foods",
+        "Reduce stress during meals",
+        "Avoid eating late at night",
+        "Maintain a healthy weight"
+      ],
+      "when_to_see_doctor": [
+        "Severe abdominal pain",
+        "Persistent vomiting",
+        "Blood in vomit or stool",
+        "Unexplained weight loss",
+        "Difficulty swallowing",
+        "Symptoms that last more than a few days"
+      ]
+    },
+    {
+      "id": "gastroenteritis",
+      "title": "Gastroenteritis (Stomach Flu)",
+      "category": "digestive",
+      "symptoms": [
+        "nausea and vomiting",
+        "diarrhea",
+        "abdominal cramps",
+        "low-grade fever",
+        "muscle aches",
+        "dehydration"
+      ],
+      "content": "Gastroenteritis is inflammation of the stomach and intestines, often caused by viral or bacterial infections. It usually resolves within a few days with proper care.",
+      "treatment": [
+        "Stay hydrated with clear fluids",
+        "Rest and avoid solid foods initially",
+        "Gradually reintroduce bland foods (BRAT diet)",
+        "Avoid dairy products temporarily",
+        "Electrolyte solutions can help replace lost minerals",
+        "Small, frequent sips of fluid"
+      ],
+      "prevention": [
+        "Wash hands frequently",
+        "Avoid contaminated food and water",
+        "Cook food thoroughly",
+        "Avoid sharing utensils",
+        "Clean surfaces regularly",
+        "Avoid close contact with infected individuals"
+      ],
+      "when_to_see_doctor": [
+        "Signs of severe dehydration",
+        "Blood in vomit or stool",
+        "High fever (over 102°F)",
+        "Severe abdominal pain",
+        "Inability to keep fluids down for 24 hours",
+        "Symptoms worsen or last more than a week"
+      ]
+    },
+    {
+      "id": "acid_reflux",
+      "title": "Acid Reflux/GERD",
+      "category": "digestive",
+      "symptoms": [
+        "burning sensation in chest (heartburn)",
+        "sour taste in mouth",
+        "difficulty swallowing",
+        "chronic cough",
+        "throat clearing",
+        "regurgitation of food or liquid"
+      ],
+      "content": "Acid reflux occurs when stomach acid backs up into the esophagus, causing irritation and discomfort. GERD is the chronic form of acid reflux.",
+      "treatment": [
+        "Elevate the head of your bed",
+        "Avoid trigger foods",
+        "Eat smaller meals",
+        "Don't eat 2-3 hours before bedtime",
+        "Maintain a healthy weight",
+        "Over-the-counter antacids or acid blockers"
+      ],
+      "prevention": [
+        "Avoid citrus, tomatoes, chocolate, caffeine, alcohol",
+        "Eat slowly and chew thoroughly",
+        "Wear loose-fitting clothes",
+        "Quit smoking",
+        "Manage stress",
+        "Maintain healthy weight"
+      ],
+      "when_to_see_doctor": [
+        "Symptoms occur more than twice a week",
+        "Difficulty swallowing",
+        "Persistent nausea or vomiting",
+        "Weight loss due to poor appetite",
+        "Symptoms interfere with daily life",
+        "Chest pain with sweating or shortness of breath"
+      ]
+    },
+    {
+      "id": "fatigue",
+      "title": "Chronic Fatigue",
+      "category": "general",
+      "symptoms": [
+        "persistent tiredness",
+        "lack of energy",
+        "difficulty concentrating",
+        "muscle weakness",
+        "sleep disturbances",
+        "reduced physical or mental performance"
+      ],
+      "content": "Chronic fatigue is persistent tiredness that doesn't improve with rest. It can be caused by various factors including sleep disorders, stress, medical conditions, or lifestyle factors.",
+      "treatment": [
+        "Ensure adequate sleep (7-9 hours nightly)",
+        "Maintain regular sleep schedule",
+        "Stay hydrated",
+        "Eat balanced, nutritious meals",
+        "Regular moderate exercise",
+        "Manage stress effectively"
+      ],
+      "prevention": [
+        "Prioritize good sleep hygiene",
+        "Eat iron-rich foods",
+        "Stay physically active",
+        "Limit caffeine and alcohol",
+        "Manage underlying health conditions",
+        "Take breaks during long work periods"
+      ],
+      "when_to_see_doctor": [
+        "Fatigue persists for more than 2 weeks",
+        "Fatigue interferes with daily activities",
+        "Accompanied by other concerning symptoms",
+        "No improvement with lifestyle changes",
+        "Sudden onset of severe fatigue",
+        "Fatigue with fever, weight loss, or night sweats"
+      ]
+    },
+    {
+      "id": "respiratory_symptoms",
+      "title": "Respiratory Symptoms",
+      "category": "respiratory",
+      "symptoms": [
+        "persistent cough",
+        "shortness of breath",
+        "wheezing",
+        "chest tightness",
+        "rapid breathing",
+        "difficulty breathing"
+      ],
+      "content": "Respiratory symptoms can range from mild coughs to serious breathing difficulties. They may indicate various conditions from simple colds to more serious respiratory issues.",
+      "treatment": [
+        "Stay hydrated",
+        "Use humidifier or steam inhalation",
+        "Rest and avoid strenuous activity",
+        "Avoid irritants like smoke",
+        "Elevate head while sleeping",
+        "Warm liquids for throat comfort"
+      ],
+      "prevention": [
+        "Avoid smoking and secondhand smoke",
+        "Get vaccinated (flu, pneumonia)",
+        "Wash hands frequently",
+        "Avoid allergens if known",
+        "Maintain good air quality at home",
+        "Exercise regularly to strengthen lungs"
+      ],
+      "when_to_see_doctor": [
+        "Difficulty breathing or shortness of breath",
+        "Chest pain with breathing",
+        "Cough lasting more than 2 weeks",
+        "Coughing up blood",
+        "High fever with respiratory symptoms",
+        "Wheezing or breathing problems in children"
+      ]
+    },
+    {
+      "id": "skin_conditions",
+      "title": "Common Skin Conditions",
+      "category": "dermatological",
+      "symptoms": [
+        "rash or skin irritation",
+        "itching",
+        "redness or inflammation",
+        "dry or flaky skin",
+        "bumps or blisters",
+        "changes in skin color or texture"
+      ],
+      "content": "Skin conditions can range from minor irritations to serious conditions requiring medical attention. Many are caused by allergies, infections, or environmental factors.",
+      "treatment": [
+        "Keep affected area clean and dry",
+        "Avoid scratching",
+        "Use gentle, fragrance-free moisturizers",
+        "Apply cool compresses for itching",
+        "Avoid known allergens or irritants",
+        "Use over-the-counter treatments as appropriate"
+      ],
+      "prevention": [
+        "Use sunscreen daily",
+        "Moisturize regularly",
+        "Avoid harsh soaps and chemicals",
+        "Wear protective clothing when needed",
+        "Keep skin clean but don't over-wash",
+        "Identify and avoid allergens"
+      ],
+      "when_to_see_doctor": [
+        "Rash spreads rapidly",
+        "Signs of infection (pus, red streaking)",
+        "Severe itching that interferes with sleep",
+        "Rash with fever",
+        "Changes in moles or new growths",
+        "Skin condition doesn't improve with treatment"
+      ]
+    },
+    {
+      "id": "anxiety_stress",
+      "title": "Anxiety and Stress",
+      "category": "mental_health",
+      "symptoms": [
+        "excessive worry",
+        "restlessness",
+        "rapid heartbeat",
+        "sweating",
+        "difficulty concentrating",
+        "sleep problems",
+        "muscle tension"
+      ],
+      "content": "Anxiety and stress are normal responses to challenging situations, but when they become excessive or persistent, they can interfere with daily life and overall well-being.",
+      "treatment": [
+        "Practice deep breathing exercises",
+        "Regular physical exercise",
+        "Maintain regular sleep schedule",
+        "Limit caffeine and alcohol",
+        "Practice mindfulness or meditation",
+        "Talk to someone you trust"
+      ],
+      "prevention": [
+        "Develop healthy coping strategies",
+        "Maintain social connections",
+        "Set realistic goals and expectations",
+        "Take regular breaks from stressful activities",
+        "Practice relaxation techniques",
+        "Maintain work-life balance"
+      ],
+      "when_to_see_doctor": [
+        "Anxiety interferes with daily activities",
+        "Persistent worry or fear",
+        "Panic attacks",
+        "Avoiding normal activities due to anxiety",
+        "Physical symptoms without medical cause",
+        "Thoughts of self-harm"
+      ]
+    }
+  ]
+}
