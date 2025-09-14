@@ -1,0 +1,219 @@
+{
+  "sample_users": [
+    {
+      "id": 1,
+      "type": "technical",
+      "personal_info": {
+        "full_name": "Alex Chen",
+        "email": "alex.chen@email.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "linkedin": "linkedin.com/in/alexchen",
+        "github": "github.com/alexchen"
+      },
+      "summary": "Senior Software Engineer with 5+ years of experience in full-stack development, specializing in React, Node.js, and cloud technologies. Passionate about building scalable web applications and leading development teams.",
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "TechCorp Inc.",
+          "location": "San Francisco, CA",
+          "duration": "2021 - Present",
+          "responsibilities": [
+            "Lead development of microservices architecture serving 1M+ users",
+            "Mentored 3 junior developers and conducted code reviews",
+            "Improved application performance by 40% through optimization",
+            "Implemented CI/CD pipelines reducing deployment time by 60%"
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "company": "StartupXYZ",
+          "location": "San Francisco, CA",
+          "duration": "2019 - 2021",
+          "responsibilities": [
+            "Developed and maintained React-based web applications",
+            "Built RESTful APIs using Node.js and Express",
+            "Collaborated with product team to implement new features",
+            "Reduced bug reports by 30% through comprehensive testing"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "school": "UC Berkeley",
+          "location": "Berkeley, CA",
+          "graduation": "2019"
+        }
+      ],
+      "skills": {
+        "programming_languages": ["JavaScript", "Python", "TypeScript", "Java"],
+        "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
+        "databases": ["PostgreSQL", "MongoDB", "Redis"],
+        "cloud_platforms": ["AWS", "Docker", "Kubernetes"],
+        "tools": ["Git", "Jenkins", "JIRA", "VS Code"]
+      },
+      "projects": [
+        {
+          "name": "E-commerce Platform",
+          "description": "Built a full-stack e-commerce platform with React frontend and Node.js backend",
+          "technologies": ["React", "Node.js", "PostgreSQL", "AWS"],
+          "github": "github.com/alexchen/ecommerce-platform"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "entry_level",
+      "personal_info": {
+        "full_name": "Sarah Johnson",
+        "email": "sarah.johnson@email.com",
+        "phone": "+1 (555) 987-6543",
+        "location": "Austin, TX",
+        "linkedin": "linkedin.com/in/sarahjohnson"
+      },
+      "objective": "Recent Computer Science graduate seeking an entry-level software development position to apply my programming skills and contribute to innovative projects while continuing to learn and grow in a collaborative environment.",
+      "experience": [
+        {
+          "title": "Software Development Intern",
+          "company": "Local Tech Solutions",
+          "location": "Austin, TX",
+          "duration": "Summer 2023",
+          "responsibilities": [
+            "Developed web components using HTML, CSS, and JavaScript",
+            "Assisted in debugging and testing software applications",
+            "Participated in daily stand-up meetings and sprint planning",
+            "Created documentation for internal tools"
+          ]
+        },
+        {
+          "title": "Teaching Assistant",
+          "company": "University of Texas at Austin",
+          "location": "Austin, TX",
+          "duration": "2022 - 2023",
+          "responsibilities": [
+            "Assisted professor in teaching Introduction to Programming course",
+            "Helped 50+ students with coding assignments and debugging",
+            "Graded assignments and provided constructive feedback",
+            "Conducted weekly office hours and study sessions"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "school": "University of Texas at Austin",
+          "location": "Austin, TX",
+          "graduation": "2023",
+          "gpa": "3.7/4.0",
+          "relevant_coursework": ["Data Structures", "Algorithms", "Database Systems", "Software Engineering", "Web Development"]
+        }
+      ],
+      "skills": {
+        "programming_languages": ["Python", "Java", "C++", "JavaScript"],
+        "frameworks": ["React", "Flask"],
+        "databases": ["MySQL", "SQLite"],
+        "tools": ["Git", "VS Code", "IntelliJ IDEA"],
+        "soft_skills": ["Problem-solving", "Team collaboration", "Communication", "Quick learner"]
+      },
+      "projects": [
+        {
+          "name": "Student Grade Management System",
+          "description": "Developed a web-based system for tracking student grades using Python Flask and MySQL",
+          "technologies": ["Python", "Flask", "MySQL", "HTML/CSS"]
+        },
+        {
+          "name": "Personal Finance Tracker",
+          "description": "Created a React application for tracking personal expenses with data visualization",
+          "technologies": ["React", "JavaScript", "Chart.js"]
+        }
+      ],
+      "activities": [
+        "Member of Computer Science Student Association",
+        "Volunteer at local coding bootcamp for underprivileged youth",
+        "Participant in 2 hackathons with top 10 finishes"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "general",
+      "personal_info": {
+        "full_name": "Michael Rodriguez",
+        "email": "michael.rodriguez@email.com",
+        "phone": "+1 (555) 456-7890",
+        "location": "Chicago, IL",
+        "linkedin": "linkedin.com/in/michaelrodriguez"
+      },
+      "summary": "Results-driven Marketing Manager with 8+ years of experience in digital marketing, brand management, and team leadership. Proven track record of increasing brand awareness and driving revenue growth through innovative marketing strategies.",
+      "experience": [
+        {
+          "title": "Senior Marketing Manager",
+          "company": "Global Brands LLC",
+          "location": "Chicago, IL",
+          "duration": "2020 - Present",
+          "responsibilities": [
+            "Managed marketing budget of $2M+ and achieved 25% ROI increase",
+            "Led cross-functional team of 8 marketing professionals",
+            "Developed and executed integrated marketing campaigns",
+            "Increased brand awareness by 40% through digital marketing initiatives"
+          ]
+        },
+        {
+          "title": "Marketing Specialist",
+          "company": "Creative Solutions Inc.",
+          "location": "Chicago, IL",
+          "duration": "2018 - 2020",
+          "responsibilities": [
+            "Managed social media accounts with 100K+ followers",
+            "Created content marketing strategies that increased engagement by 60%",
+            "Coordinated with design team to develop marketing materials",
+            "Analyzed campaign performance and provided data-driven recommendations"
+          ]
+        },
+        {
+          "title": "Marketing Coordinator",
+          "company": "StartUp Marketing",
+          "location": "Chicago, IL",
+          "duration": "2016 - 2018",
+          "responsibilities": [
+            "Assisted in planning and executing marketing events",
+            "Maintained customer database and CRM system",
+            "Created email marketing campaigns with 25% open rate",
+            "Supported senior marketers with market research and analysis"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Master of Business Administration (MBA)",
+          "school": "Northwestern University",
+          "location": "Evanston, IL",
+          "graduation": "2016",
+          "concentration": "Marketing"
+        },
+        {
+          "degree": "Bachelor of Arts in Communications",
+          "school": "University of Illinois at Chicago",
+          "location": "Chicago, IL",
+          "graduation": "2014"
+        }
+      ],
+      "skills": {
+        "marketing": ["Digital Marketing", "Social Media Marketing", "Content Marketing", "Email Marketing", "SEO/SEM"],
+        "analytics": ["Google Analytics", "Facebook Ads Manager", "HubSpot", "Salesforce"],
+        "creative": ["Adobe Creative Suite", "Canva", "Video Editing"],
+        "soft_skills": ["Leadership", "Project Management", "Data Analysis", "Strategic Planning"]
+      },
+      "certifications": [
+        "Google Ads Certified",
+        "HubSpot Content Marketing Certification",
+        "Facebook Blueprint Certification"
+      ],
+      "achievements": [
+        "Increased lead generation by 150% through marketing automation",
+        "Won 'Marketing Campaign of the Year' award in 2022",
+        "Successfully launched 5 new product campaigns"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+RESUME_GENERATION_PROMPT:
+You are a professional resume writer. Generate a well-structured, professional resume in Markdown format based on the provided user information. 
+
+Follow these guidelines:
+1. Use proper Markdown formatting with headers, bullet points, and emphasis
+2. Create sections: Header/Contact, Professional Summary, Work Experience, Education, Skills, and Additional sections as appropriate
+3. Make the content tailored to the user's experience level and industry
+4. Use action verbs and quantifiable achievements where possible
+5. Keep the tone professional and concise
+6. Ensure the resume is ATS-friendly
+
+User Information:
+{user_data}
+
+Please generate a complete professional resume in Markdown format. Start with # [Full Name] as the main header.
+
+TECHNICAL_RESUME_PROMPT:
+You are a senior technical recruiter and resume writer specializing in software engineering roles. Create a comprehensive technical resume in Markdown format that highlights programming skills, projects, and technical achievements.
+
+Guidelines for technical resumes:
+1. Emphasize technical skills, programming languages, frameworks, and tools
+2. Include detailed project descriptions with technologies used
+3. Highlight problem-solving abilities and technical achievements
+4. Use technical terminology appropriately
+5. Include links to GitHub, portfolio, or relevant projects if provided
+6. Structure: Header, Summary, Technical Skills, Experience, Projects, Education
+
+User Technical Profile:
+{user_data}
+
+Generate a professional technical resume in Markdown format starting with # [Full Name].
+
+ENTRY_LEVEL_RESUME_PROMPT:
+You are a career counselor specializing in entry-level professionals and recent graduates. Create an engaging resume in Markdown format that emphasizes potential, education, internships, projects, and transferable skills.
+
+Guidelines for entry-level resumes:
+1. Focus on education, coursework, and academic projects
+2. Highlight internships, part-time work, and volunteer experience
+3. Emphasize soft skills and learning ability
+4. Include relevant coursework and certifications
+5. Show enthusiasm and potential for growth
+6. Structure: Header, Objective/Summary, Education, Experience, Projects, Skills, Activities
+
+User Profile (Entry-Level):
+{user_data}
+
+Create a compelling entry-level resume in Markdown format starting with # [Full Name].
