@@ -47,7 +47,7 @@ resume_generator/
 1. **Clone or navigate to the project directory:**
 
    ```bash
-   cd /home/nggocnn/ai-dev/week5/resume_generator
+   cd /home/nggocnn/ai-dev-playground/week5/12_resume_generator
    ```
 
 2. **Install Python dependencies:**
@@ -56,25 +56,15 @@ resume_generator/
    pip install -r requirements.txt
    ```
 
-3. **Download a LLaMA model** (choose one):
+3. **Download a GGUF instruction model** (example recommended by this script):
 
-    **Option A: Llama-2-7B-Chat (Recommended - ~4GB)**
-
-   ```bash
-   wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
-   ```
-
-   **Option B: Code Llama 7B (~4GB)**
+    **Recommended: Meta-Llama-3-8B-Instruct Q4_K_M**
 
    ```bash
-   wget https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_M.gguf
+   wget https://huggingface.co/bartowski/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf -O Meta-Llama-3-8B-Instruct-Q4_K_M.gguf
    ```
 
-   **Option C: Llama-2-13B-Chat (Better quality - ~7GB)**
-
-   ```bash
-   wget https://huggingface.co/TheBloke/Llama-2-13B-Chat-GGUF/resolve/main/llama-2-13b-chat.Q4_K_M.gguf
-   ```
+   You can use other compatible GGUF instruction models as well.
 
 4. **Update model path** in `resume_generator.py` if needed:
 
@@ -97,7 +87,7 @@ python resume_generator.py
 The script will:
 
 1. Load 3 sample user profiles from `input.json`
-2. Generate appropriate resumes using LLaMA3
+2. Generate appropriate resumes using your local GGUF model
 3. Save resumes as Markdown files in the `outputs/` directory
 
 ### Expected Console Output
@@ -105,10 +95,10 @@ The script will:
 ```txt
 Resume Generation Using LLaMA3 Locally
 ==================================================
-Model found at: llama-2-7b-chat.Q4_K_M.gguf
+Model found at: Meta-Llama-3-8B-Instruct-Q4_K_M.gguf
 Loaded 3 user profiles from input.json
 Loaded 3 prompts from prompts.txt
-Loading LLaMA model from llama-2-7b-chat.Q4_K_M.gguf...
+Loading LLaMA model from Meta-Llama-3-8B-Instruct-Q4_K_M.gguf...
 LLaMA model loaded successfully!
 
 Generating resumes for 3 users...

@@ -43,7 +43,7 @@ torch>=2.2.0
 ### Run on CPU (auto language detection)
 
 ```bash
-python tts_batch_infer.py --lang auto --device cpu
+python hunggingface_tts.py --lang auto --device cpu
 ```
 
 ### Find outputs
@@ -61,23 +61,23 @@ outputs/
 ## Usage
 
 ```bash
-python tts_batch_infer.py [--inputs-dir DIR] [--out-dir DIR] [--lang {auto,vi,en}] [--device {cpu,cuda}] [--model-id HF_MODEL]
+python hunggingface_tts.py [--inputs-dir DIR] [--out-dir DIR] [--lang {auto,vi,en}] [--device {cpu,cuda}] [--model_id HF_MODEL]
 ```
 
 ### Common examples
 
 ```bash
 # CPU, auto-detect language per file
-python tts_batch_infer.py --lang auto --device cpu
+python hunggingface_tts.py --lang auto --device cpu
 
 # Force Vietnamese model
-python tts_batch_infer.py --lang vi --device cpu
+python hunggingface_tts.py --lang vi --device cpu
 
 # Force English model
-python tts_batch_infer.py --lang en --device cpu
+python hunggingface_tts.py --lang en --device cpu
 
 # Override model for all files (must be a compatible Hugging Face TTS model)
-python tts_batch_infer.py --model-id facebook/mms-tts-eng --lang en --device cpu
+python hunggingface_tts.py --model_id facebook/mms-tts-eng --lang en --device cpu
 ```
 
 ### Arguments
@@ -88,9 +88,9 @@ python tts_batch_infer.py --model-id facebook/mms-tts-eng --lang en --device cpu
 | `--out-dir`    | Where to write `.wav` files                     | `outputs` |
 | `--lang`       | Language hint: `auto`, `vi`, `en`               | `auto`    |
 | `--device`     | Compute device                                  | `cpu`     |
-| `--model-id`   | Override model for **all** files (advanced use) | *(none)*  |
+| `--model_id`   | Override model for **all** files (advanced use) | *(none)*  |
 
-> Note: When `--model-id` is not set, the script uses MMS defaults:
+> Note: When `--model_id` is not set, the script uses MMS defaults:
 > `vi → facebook/mms-tts-vie` and `en → facebook/mms-tts-eng`.
 
 ---
@@ -106,6 +106,6 @@ python tts_batch_infer.py --model-id facebook/mms-tts-eng --lang en --device cpu
 
    * Vietnamese → `facebook/mms-tts-vie`
    * English → `facebook/mms-tts-eng`
-   * Or pass `--model-id ...` to use a different compatible model for all files.
+   * Or pass `--model_id ...` to use a different compatible model for all files.
 4. **Chunking**: the script splits long text into \~250-char chunks and synthesizes each chunk, then concatenates.
 5. **Saving**: waveform is clamped to \[-1, 1], converted to **16-bit PCM WAV**, and written to `outputs/<lang>/<stem>.wav`.

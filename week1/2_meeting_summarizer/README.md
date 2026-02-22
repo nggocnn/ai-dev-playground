@@ -48,6 +48,7 @@ Process all `.txt` transcripts in `./inputs` and save summaries to `./outputs`:
 
 ```bash
 python meeting_summarizer.py
+```
 
 ### Disable chunking
 
@@ -73,7 +74,7 @@ python meeting_summarizer.py \
 
 | Argument             | Default         | Description                                               |
 | -------------------- | --------------- | --------------------------------------------------------- |
-| `--transcripts-dir`  | `./transcripts` | Folder containing `.txt` transcripts (recursive search)   |
+| `--transcripts-dir`  | `./inputs`      | Folder containing `.txt` transcripts (recursive search)   |
 | `--output-dir`       | `./outputs`     | Folder to save summaries                                  |
 | `--chunk-char-limit` | `12000`         | Approximate max characters per chunk                      |
 | `--overlap-ratio`    | `0.15`          | Fraction of previous chunk's lines to overlap into next   |

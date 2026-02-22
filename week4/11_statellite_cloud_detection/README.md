@@ -60,7 +60,7 @@ AZURE_OPENAI_API_VERSION=2024-07-01-preview
 
    ```bash
    python -m venv .venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
